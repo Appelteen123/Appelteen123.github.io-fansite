@@ -1,7 +1,11 @@
-
 @font-face {
     font-family:AHSfont;
     src: url(fonts/AmericanHorrorStory-8VwZ.otf)
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
   @media (max-width: 900px) {
