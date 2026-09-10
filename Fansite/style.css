@@ -1,0 +1,776 @@
+
+@font-face {
+    font-family:AHSfont;
+    src: url(fonts/AmericanHorrorStory-8VwZ.otf)
+}
+
+  @media (max-width: 900px) {
+    .MurderHouse, 
+    .Asylum,
+    .Coven, 
+    .FreakShow, 
+    .Hotel,
+    .Roanoke,
+    .Cult,
+    .Apocalypse,
+    .nineteeneightyfour, 
+    .DoubleFeature, 
+    .Nyc, 
+    .Delicate {
+      grid-template-areas:
+        "header"
+        "menu"
+        "content"
+        "footer";
+      grid-template-columns: 2fr;
+    }
+    .MurderHouse .menu {
+      text-align: center;
+    }
+  }
+
+
+
+.header {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    min-height: 100px;
+}
+
+.headerdiv {
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    min-height: 50px;
+}
+
+.Welcometext {
+    font-family: 'AHSfont';
+    font-size: 56px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 48px 24px;
+    background-color: #555555;
+    background-image: url('images/ahs.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.Abouttext {
+    font-family: 'AHSfont';
+    font-size: 42px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 0 24px;
+}
+
+.explaintext {
+    max-width: 750px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#cube {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  margin-top: 575px;
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #723d3d;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'AHSfont';
+    font-size: 36px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    margin-top: 36px;
+}
+
+
+
+
+
+.MurderHouse {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(110, 110, 110);
+  padding: 5px;
+}
+.MurderHouse div {
+  background-color: white;
+  padding: 10px;
+  min-height: 100px;
+}
+.MurderHouse div.header {
+  grid-area: header;
+  text-align: center;
+}
+.MurderHouse div.menu {
+  grid-area: menu;
+}
+.MurderHouse div.content {
+  grid-area: content;
+}
+.MurderHouse div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+.MurderHouse .footerdiv img {
+  display: block;
+  width: min(100%, 500px);
+  height: auto;
+  margin: 0 auto;
+}
+.mhtext {
+    font-family: 'AHSfont';
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.Asylum {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(110, 110, 110);
+  padding: 5px;
+}
+.Asylum div {
+  background-color: white;
+  padding: 10px;
+  min-height: 100px;
+}
+.Asylum div.header {
+  grid-area: header;
+  text-align: center;
+}
+.Asylum div.menu {
+  grid-area: menu;
+}
+.Asylum div.content {
+  grid-area: content;
+}
+.Asylum div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+.Asylum .footerdiv img {
+  display: block;
+  width: min(100%, 500px);
+  height: auto;
+  margin: 0 auto;
+}
+.asylumtext {
+    font-family: 'AHSfont';
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.Coven {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(110, 110, 110);
+  padding: 5px;
+}
+.Coven div {
+  background-color: white;
+  padding: 10px;
+  min-height: 100px;
+}
+.Coven div.header {
+  grid-area: header;
+  text-align: center;
+}
+.Coven div.menu {
+  grid-area: menu;
+}
+.Coven div.content {
+  grid-area: content;
+}
+.Coven div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+.Coven .footerdiv img {
+  display: block;
+  width: min(100%, 500px);
+  height: auto;
+  margin: 0 auto;
+}
+.coven-text {
+    font-family: 'AHSfont';
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.FreakShow {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(110, 110, 110);
+  padding: 5px;
+}
+.FreakShow div {
+  background-color: white;
+  padding: 10px;
+  min-height: 100px;
+}
+.FreakShow div.header {
+  grid-area: header;
+  text-align: center;
+}
+.FreakShow div.menu {
+  grid-area: menu;
+}
+.FreakShow div.content {
+  grid-area: content;
+}
+.FreakShow div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+.FreakShow .footerdiv img {
+  display: block;
+  width: min(100%, 500px);
+  height: auto;
+  margin: 0 auto;
+}
+.freakshowtext {
+    font-family: 'AHSfont';
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.Hotel {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(110, 110, 110);
+  padding: 5px;
+}
+.Hotel div {
+  background-color: white;
+  padding: 10px;
+  min-height: 100px;
+}
+.Hotel div.header {
+  grid-area: header;
+  text-align: center;
+}
+.Hotel div.menu {
+  grid-area: menu;
+}
+.Hotel div.content {
+  grid-area: content;
+}
+.Hotel div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+.Hotel .footerdiv img {
+  display: block;
+  width: min(100%, 500px);
+  height: auto;
+  margin: 0 auto;
+}
+.hoteltext {
+    font-family: 'AHSfont';
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.Roanoke{
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(110, 110, 110);
+  padding: 5px;
+}
+.Roanoke div {
+  background-color: white;
+  padding: 10px;
+  min-height: 100px;
+}
+.Roanoke div.header {
+  grid-area: header;
+  text-align: center;
+}
+.Roanoke div.menu {
+  grid-area: menu;
+}
+.Roanoke div.content {
+  grid-area: content;
+}
+.Roanoke div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+.Roanoke .footerdiv img {
+  display: block;
+  width: min(100%, 500px);
+  height: auto;
+  margin: 0 auto;
+}
+.roanoketext {
+    font-family: 'AHSfont';
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.Cult{
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(110, 110, 110);
+  padding: 5px;
+}
+.Cult div {
+  background-color: white;
+  padding: 10px;
+  min-height: 100px;
+}
+.Cult div.header {
+  grid-area: header;
+  text-align: center;
+}
+.Cult div.menu {
+  grid-area: menu;
+}
+.Cult div.content {
+  grid-area: content;
+}
+.Cult div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+.Cult .footerdiv img {
+  display: block;
+  width: min(100%, 500px);
+  height: auto;
+  margin: 0 auto;
+}
+.culttext {
+    font-family: 'AHSfont';
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.Apocalypse {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(110, 110, 110);
+  padding: 5px;
+}
+.Apocalypse div {
+  background-color: white;
+  padding: 10px;
+  min-height: 100px;
+}
+.Apocalypse div.header {
+  grid-area: header;
+  text-align: center;
+}
+.Apocalypse div.menu {
+  grid-area: menu;
+}
+.Apocalypse div.content {
+  grid-area: content;
+}
+.Apocalypse div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+.Apocalypse .footerdiv img {
+  display: block;
+  width: min(100%, 500px);
+  height: auto;
+  margin: 0 auto;
+}
+.apocalypsetext {
+    font-family: 'AHSfont';
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.nineteeneightyfour{
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(110, 110, 110);
+  padding: 5px;
+}
+.nineteeneightyfour div {
+  background-color: white;
+  padding: 10px;
+  min-height: 100px;
+}
+.nineteeneightyfour div.header {
+  grid-area: header;
+  text-align: center;
+}
+.nineteeneightyfour div.menu {
+  grid-area: menu;
+}
+.nineteeneightyfour div.content {
+  grid-area: content;
+}
+.nineteeneightyfour div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+.nineteeneightyfour .footerdiv img {
+  display: block;
+  width: min(100%, 500px);
+  height: auto;
+  margin: 0 auto;
+}
+.nineteeneightyfourtext {
+    font-family: 'AHSfont';
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.DoubleFeature {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(110, 110, 110);
+  padding: 5px;
+}
+.DoubleFeature div {
+  background-color: white;
+  padding: 10px;
+  min-height: 100px;
+}
+.DoubleFeature div.header {
+  grid-area: header;
+  text-align: center;
+}
+.DoubleFeature div.menu {
+  grid-area: menu;
+}
+.DoubleFeature div.content {
+  grid-area: content;
+}
+.DoubleFeature div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+.DoubleFeature .footerdiv img {
+  display: block;
+  width: min(100%, 500px);
+  height: auto;
+  margin: 0 auto;
+}
+.doublefeaturetext {
+    font-family: 'AHSfont';
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.Nyc {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(110, 110, 110);
+  padding: 5px;
+}
+.Nyc div {
+  background-color: white;
+  padding: 10px;
+  min-height: 100px;
+}
+.Nyc div.header {
+  grid-area: header;
+  text-align: center;
+}
+.Nyc div.menu {
+  grid-area: menu;
+}
+.Nyc div.content {
+  grid-area: content;
+}
+.Nyc div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+.Nyc .footerdiv img {
+  display: block;
+  width: min(100%, 500px);
+  height: auto;
+  margin: 0 auto;
+}
+.nyctext {
+    font-family: 'AHSfont';
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.Delicate {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(110, 110, 110);
+  padding: 5px;
+}
+.Delicate div {
+  background-color: white;
+  padding: 10px;
+  min-height: 100px;
+}
+.Delicate div.header {
+  grid-area: header;
+  text-align: center;
+}
+.Delicate div.menu {
+  grid-area: menu;
+}
+.Delicate div.content {
+  grid-area: content;
+}
+.Delicate div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+.Delicate .footerdiv img {
+  display: block;
+  width: min(100%, 500px);
+  height: auto;
+  margin: 0 auto;
+}
+.delicatetext {
+    font-family: 'AHSfont';
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+html body .footerdiv {
+  padding: 0;
+  overflow: hidden;
+}
+
+html body .footerdiv img {
+  width: 100%;
+  height: 500px;
+  max-width: none;
+  margin: 0;
+  object-fit: cover;
+}
+
+html body .MurderHouse,
+html body .Asylum,
+html body .Coven,
+html body .FreakShow,
+html body .Hotel,
+html body .Roanoke,
+html body .Cult,
+html body .Apocalypse,
+html body .nineteeneightyfour,
+html body .DoubleFeature,
+html body .Nyc,
+html body .Delicate {
+  grid-template-areas:
+    "header footer"
+    "menu content";
+}
+
+html body .headerdiv {
+  grid-area: header;
+}
+
+html body .footerdiv {
+  grid-area: footer;
+  min-height: 240px;
+}
+
+.playlisttext {
+    font-family: 'AHSfont';
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.casttext {
+    font-family: 'AHSfont';
+    font-size: 70px;
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .KathyBates, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1fr 3fr;
+  gap: 3px;
+  background-color: rgb(110, 110, 110);
+  padding: 5px;
+} */
+
+
+
+
+
+
+
+.KathyBates, .SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd div {
+  background-color: white;
+  padding: 10px;
+  min-height: 100px;
+}
+
+.KathyBates, .SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd div.header {
+  grid-area: header;
+  text-align: center;
+}
+
+.KathyBates, .SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd div.menu {
+  grid-area: menu;
+}
+
+.KathyBates, .SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd div.content {
+  grid-area: content;
+}
+
+.KathyBates, .SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+
+.KathyBates, .SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd div.footer {
+  grid-area: footer;
+  text-align: center;  
+}
+
+.KathyBates, .SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd .footerdiv img {
+  display: block;
+  width: min(100%, 500px);
+  height: auto;
+  margin: 0 auto;
+  max-width: 500px!important;
+}
+.casttext {
+    font-family: 'AHSfont';
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
