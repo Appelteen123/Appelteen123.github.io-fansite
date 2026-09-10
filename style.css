@@ -36,7 +36,7 @@ body {
 
 
 .header {
-    background-color: #000000;
+    background-image: linear-gradient(to bottom, rgb(128, 126, 126), rgb(56, 55, 55));
     padding: 20px;
     text-align: center;
     font-size: 24px;
@@ -703,7 +703,7 @@ html body .footerdiv {
     margin: 20px 0;
 }
 
-.SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .KathyBates, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd {
+ .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .KathyBates, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd, .SarahPaulson {
   display: grid;
   grid-template-areas:
     "header header"
@@ -721,36 +721,38 @@ html body .footerdiv {
 
 
 
-.KathyBates, .SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd div {
+
+
+.KathyBates, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd, .SarahPaulson div {
   background-color: white;
   padding: 10px;
   min-height: 100px;
 }
 
-.KathyBates, .SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd div.header {
+.KathyBates, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd, .SarahPaulson div.header {
   grid-area: header;
   text-align: center;
 }
 
-.KathyBates, .SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd div.menu {
+.KathyBates, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd, .SarahPaulson div.menu {
   grid-area: menu;
 }
 
-.KathyBates, .SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd div.content {
+.KathyBates, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd, .SarahPaulson div.content {
   grid-area: content;
 }
 
-.KathyBates, .SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd div.footer {
+.KathyBates, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd, .SarahPaulson div.footer {
   grid-area: footer;
   text-align: center;  
 }
 
-.KathyBates, .SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd div.footer {
+.KathyBates, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd, .SarahPaulson div.footer {
   grid-area: footer;
   text-align: center;  
 }
 
-.KathyBates, .SarahPaulson, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd .footerdiv img {
+.KathyBates, .JessicaLange, .TaissaFarmiga, .EvanPeters, .LilyRabe, .LeslieGrossman, .GaboureySidibe, .EmmaRoberts, .BillieLourd, .SarahPaulson .footerdiv img {
   display: block;
   width: min(100%, 500px);
   height: auto;

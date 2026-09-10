@@ -1,0 +1,97 @@
+@font-face {
+    font-family: AHSfont;
+    src: url(fonts/AmericanHorrorStory-8VwZ.otf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #120e0e;
+    color: #ffffff;
+    font-family: Georgia, serif;
+}
+
+.landing {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    padding: 32px;
+    background:
+        linear-gradient(90deg, rgba(18, 14, 14, .88), rgba(18, 14, 14, .28)),
+        url("images/ahs.jpg") center / cover;
+}
+
+.landing-content {
+    width: min(680px, 100%);
+    padding: 48px 40px;
+    background: rgba(18, 14, 14, .78);
+}
+
+h1 {
+    margin: 0;
+    font-family: AHSfont, Georgia, serif;
+    font-size: clamp(64px, 12vw, 132px);
+    font-weight: 400;
+    line-height: .9;
+}
+
+.intro {
+    max-width: 460px;
+    margin: 28px 0 36px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.age-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.age-button {
+    padding: 14px 22px;
+    background: #723d3d;
+    color: #ffffff;
+    font-family: AHSfont, Georgia, serif;
+    font-size: 28px;
+    cursor: pointer;
+    border: 1px solid #c18484;
+    border-radius: 6px;
+}
+
+.age-button:hover {
+    background: #935353;
+}
+
+.age-button-secondary {
+    background: transparent;
+}
+
+.age-button-secondary:hover {
+    background: #723d3d;
+}
+
+.access-message {
+    margin: 24px 0 0;
+    color: #f0b7b7;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    .landing {
+        padding: 18px;
+    }
+
+    .landing-content {
+        padding: 34px 24px;
+    }
+
+    .intro {
+        font-size: 18px;
+    }
+}
