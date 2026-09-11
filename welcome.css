@@ -1,6 +1,6 @@
 @font-face {
-    font-family: AHSfont;
-    src: url(fonts/AmericanHorrorStory-8VwZ.otf);
+    font-family: 'AHSfont';
+    src: url('fonts/AHSfont.ttf') format('truetype');
 }
 
 * {
@@ -9,84 +9,70 @@
 
 body {
     margin: 0;
-    min-height: 100vh;
-    background: #120e0e;
-    color: #ffffff;
+    min-height: 150px;
+    background-color:#000000;
+    color: #FFFFFF;
     font-family: Georgia, serif;
 }
 
-.landing {
+.oldercontainer {
     display: grid;
-    min-height: 100vh;
-    place-items: center;
-    padding: 32px;
-    background:
-        linear-gradient(90deg, rgba(18, 14, 14, .88), rgba(18, 14, 14, .28)),
-        url("images/ahs.jpg") center / cover;
+    min-height: 100px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(18, 14, 14, .88), rgba(18, 14, 14, .28)), url("images/ahs.jpg") center / cover;
 }
 
-.landing-content {
-    width: min(680px, 100%);
-    padding: 48px 40px;
-    background: rgba(18, 14, 14, .78);
+.oldercontent{
+    width: 680px;
+    padding: 48px 40px; 
+    background-color: rgba(18, 14, 14, 0.78);
 }
 
 h1 {
-    margin: 0;
-    font-family: AHSfont, Georgia, serif;
+    font-family: 'AHSfont', Georgia, serif;
     font-weight: 400;
-    line-height: 0.9;
 }
 
-.intro {
+.intro { 
     max-width: 460px;
-    margin: 28px 0 36px;
-    font-size: 20px;
-    line-height: 1.5;
+    margin: 28px 36px; 
+    font-size: 20px; 
 }
 
-.age-buttons {
+.agebuttons{
     display: flex;
-    flex-wrap: wrap;
     gap: 12px;
 }
 
-.age-button {
+.agebutton1{
     padding: 14px 22px;
-    background: #723d3d;
-    color: #ffffff;
-    font-family: AHSfont, Georgia, serif;
+    background-color: #c72323;
+    color: #FFFFFF;
+    font-family: 'AHSfont';
     font-size: 28px;
-    cursor: pointer;
-    border: 1px solid #c18484;
-    border-radius: 6px;
 }
 
-.age-button:hover {
-    background: #935353;
+.agebutton2{
+    padding: 14px 22px;
+    background-color: #000000;
+    color: #FFFFFF; 
+    font-family: 'AHSfont', Georgia, serif;
+    font-size: 28px;
 }
 
-.age-button-secondary {
-    background: transparent;
-}
-
-.age-button-secondary:hover {
-    background: #723d3d;
-}
-
-.access-message {
-    margin: 24px 0 0;
-    color: #f0b7b7;
+.no{
+    margin: 24px; 
+    color: #FFDDDD;
     font-size: 18px;
     line-height: 1.5;
 }
 
 @media (max-width: 600px) {
-    .landing {
+    .oldercontainer {
         padding: 18px;
     }
 
-    .landing-content {
+    .oldercontent {
         padding: 34px 24px;
     }
 

@@ -1,23 +1,23 @@
-const yesButton = document.querySelector("#yes-button");
-const noButton = document.querySelector("#no-button");
-const accessMessage = document.querySelector("#access-message");
+const ja = document.querySelector('#ja');
+const nee = document.querySelector('#nee');
 
-yesButton.addEventListener("click", function () {
-    const isOlderThanSixteen = true;
+ja.addEventListener('click', function() {
+    const oldersixteen = true; 
+     if (oldersixteen) {
+        window.location.href = "seasons.html";
+     } else {
+        window.location.href = "access-denied.html";
+     }
+})
 
-    if (isOlderThanSixteen) {
+
+
+nee.addEventListener('click', function() {
+    const oldersixteen = false;
+    if (oldersixteen) {
         window.location.href = "seasons.html";
     } else {
         window.location.href = "access-denied.html";
     }
-});
+})
 
-noButton.addEventListener("click", function () {
-    const isOlderThanSixteen = false;
-
-    if (isOlderThanSixteen) {
-        window.location.href = "seasons.html";
-    } else {
-        window.location.href = "access-denied.html";
-    }
-});

@@ -28,20 +28,21 @@ body {
         "footer";
       grid-template-columns: 2fr;
     }
+
+
+  }
+    
     .MurderHouse .menu {
       text-align: center;
     }
-  }
-
-
+  
 
 .header {
     background-image: linear-gradient(to bottom, rgb(128, 126, 126), rgb(56, 55, 55));
     padding: 20px;
     text-align: center;
     font-size: 24px;
-    font-weight: bold;
-    min-height: 100px;
+    min-height: 50px;
 }
 
 .headerdiv {
@@ -70,7 +71,6 @@ body {
     background-color: #555555;
     background-image: url('images/ahs.jpg');
     background-size: cover;
-    background-position: center;
 }
 .Abouttext {
     font-family: 'AHSfont';
@@ -151,14 +151,13 @@ body {
   display: block;
   width: min(100%, 500px);
   height: auto;
-  margin: 0 auto;
 }
 .mhtext {
     font-family: 'AHSfont';
     font-size: 36px;
     color: #000000;
     text-align: center;
-    margin: 20px 0;
+    margin: 20px;
 }
 
 .Asylum {
@@ -195,14 +194,12 @@ body {
   display: block;
   width: min(100%, 500px);
   height: auto;
-  margin: 0 auto;
 }
 .asylumtext {
     font-family: 'AHSfont';
     font-size: 36px;
     color: #000000;
     text-align: center;
-    margin: 20px 0;
 }
 
 
@@ -240,14 +237,12 @@ body {
   display: block;
   width: min(100%, 500px);
   height: auto;
-  margin: 0 auto;
 }
 .coven-text {
     font-family: 'AHSfont';
     font-size: 36px;
     color: #000000;
     text-align: center;
-    margin: 20px 0;
 }
 
 .FreakShow {
@@ -284,14 +279,12 @@ body {
   display: block;
   width: min(100%, 500px);
   height: auto;
-  margin: 0 auto;
 }
 .freakshowtext {
     font-family: 'AHSfont';
     font-size: 36px;
     color: #000000;
     text-align: center;
-    margin: 20px 0;
 }
 
 .Hotel {
@@ -328,14 +321,12 @@ body {
   display: block;
   width: min(100%, 500px);
   height: auto;
-  margin: 0 auto;
 }
 .hoteltext {
     font-family: 'AHSfont';
     font-size: 36px;
     color: #000000;
     text-align: center;
-    margin: 20px 0;
 }
 
 .Roanoke{
@@ -347,7 +338,6 @@ body {
   grid-template-columns: 1fr 3fr;
   gap: 3px;
   background-color: rgb(110, 110, 110);
-  padding: 5px;
 }
 .Roanoke div {
   background-color: white;
@@ -372,14 +362,12 @@ body {
   display: block;
   width: min(100%, 500px);
   height: auto;
-  margin: 0 auto;
 }
 .roanoketext {
     font-family: 'AHSfont';
     font-size: 36px;
     color: #000000;
     text-align: center;
-    margin: 20px 0;
 }
 
 .Cult{
@@ -391,7 +379,6 @@ body {
   grid-template-columns: 1fr 3fr;
   gap: 3px;
   background-color: rgb(110, 110, 110);
-  padding: 5px;
 }
 .Cult div {
   background-color: white;
@@ -416,14 +403,12 @@ body {
   display: block;
   width: min(100%, 500px);
   height: auto;
-  margin: 0 auto;
 }
 .culttext {
     font-family: 'AHSfont';
     font-size: 36px;
     color: #000000;
     text-align: center;
-    margin: 20px 0;
 }
 
 .Apocalypse {
@@ -460,14 +445,12 @@ body {
   display: block;
   width: min(100%, 500px);
   height: auto;
-  margin: 0 auto;
 }
 .apocalypsetext {
     font-family: 'AHSfont';
     font-size: 36px;
     color: #000000;
     text-align: center;
-    margin: 20px 0;
 }
 
 
@@ -480,7 +463,6 @@ body {
   grid-template-columns: 1fr 3fr;
   gap: 3px;
   background-color: rgb(110, 110, 110);
-  padding: 5px;
 }
 .nineteeneightyfour div {
   background-color: white;
@@ -505,14 +487,12 @@ body {
   display: block;
   width: min(100%, 500px);
   height: auto;
-  margin: 0 auto;
 }
 .nineteeneightyfourtext {
     font-family: 'AHSfont';
     font-size: 36px;
     color: #000000;
     text-align: center;
-    margin: 20px 0;
 }
 
 .DoubleFeature {
@@ -524,7 +504,6 @@ body {
   grid-template-columns: 1fr 3fr;
   gap: 3px;
   background-color: rgb(110, 110, 110);
-  padding: 5px;
 }
 .DoubleFeature div {
   background-color: white;
@@ -549,14 +528,12 @@ body {
   display: block;
   width: min(100%, 500px);
   height: auto;
-  margin: 0 auto;
 }
 .doublefeaturetext {
     font-family: 'AHSfont';
     font-size: 36px;
     color: #000000;
     text-align: center;
-    margin: 20px 0;
 }
 
 .Nyc {
@@ -568,7 +545,6 @@ body {
   grid-template-columns: 1fr 3fr;
   gap: 3px;
   background-color: rgb(110, 110, 110);
-  padding: 5px;
 }
 .Nyc div {
   background-color: white;
@@ -593,14 +569,12 @@ body {
   display: block;
   width: min(100%, 500px);
   height: auto;
-  margin: 0 auto;
 }
 .nyctext {
     font-family: 'AHSfont';
     font-size: 36px;
     color: #000000;
     text-align: center;
-    margin: 20px 0;
 }
 
 .Delicate {
@@ -612,7 +586,6 @@ body {
   grid-template-columns: 1fr 3fr;
   gap: 3px;
   background-color: rgb(110, 110, 110);
-  padding: 5px;
 }
 .Delicate div {
   background-color: white;
@@ -637,27 +610,22 @@ body {
   display: block;
   width: min(100%, 500px);
   height: auto;
-  margin: 0 auto;
 }
 .delicatetext {
     font-family: 'AHSfont';
     font-size: 36px;
     color: #000000;
     text-align: center;
-    margin: 20px 0;
 }
 
 html body .footerdiv {
-  padding: 0;
   overflow: hidden;
 }
 
 html body .footerdiv img {
   width: 100%;
   height: 500px;
-  max-width: none;
-  margin: 0;
-  object-fit: cover;
+  object-fit: auto;
 }
 
 html body .MurderHouse,
@@ -683,7 +651,7 @@ html body .headerdiv {
 
 html body .footerdiv {
   grid-area: footer;
-  min-height: 240px;
+  min-height: 25px;
 }
 
 .playlisttext {
@@ -691,7 +659,6 @@ html body .footerdiv {
     font-size: 36px;
     color: #000000;
     text-align: center;
-    margin: 20px 0;
 }
 
 .casttext {
@@ -710,10 +677,9 @@ html body .footerdiv {
     "menu content"
     "footer footer";
   grid-template-columns: 1fr 3fr;
-  gap: 3px;
+  gap: 6px;
   background-color: rgb(110, 110, 110);
-  padding: 5px;
-} */
+} 
 
 
 
@@ -764,7 +730,6 @@ html body .footerdiv {
     font-size: 50px;
     color: #000000;
     text-align: center;
-    margin: 20px 0;
 }
 
 
