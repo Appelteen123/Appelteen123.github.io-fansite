@@ -20,7 +20,7 @@ body {
     min-height: 100vh;
     place-items: center;
     padding: 10px;
-    background: linear-gradient(90deg, rgba(18, 14, 14, .88), rgba(18, 14, 14, .28)), url("images/ahs.jpg") center / cover;
+    background: url("images/ahs.jpg") center / cover;
 }
 
 .oldercontent{
